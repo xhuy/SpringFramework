@@ -7,4 +7,5 @@
   </parent>
   <artifactId>spring-web</artifactId>
   <packaging>war</packaging>
+  
 </project>

@@ -12,6 +12,8 @@
 		<module>spring-web</module>
 	</modules>
 
+
+
 	<build>
 		<pluginManagement>
 			<plugins>
@@ -22,7 +24,16 @@
 					<configuration>
 						<source>1.8</source>
 						<target>1.8</target>
-					</configuration> 
+					</configuration>
+					<executions>
+						<execution>
+							<id>compile</id>
+							<goals>
+								<goal>testCompile</goal>
+								<goal>compile</goal>
+							</goals>
+						</execution>
+					</executions>
 				</plugin>
 			</plugins>
 		</pluginManagement>
